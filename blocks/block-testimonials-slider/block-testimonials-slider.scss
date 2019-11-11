@@ -1,0 +1,28 @@
+.block-testimonials-slider {
+    .swiper-container {
+        max-width: 700px;
+        .swiper-wrapper {
+        	padding-bottom: 50px;
+	        .swiper-slide {
+	            text-align: center;
+	            .slide {
+	                max-width: 550px;
+	                margin: auto;
+	                .entry-image {
+	                    img {
+	                        width: 100px;
+	                        height: 100px;
+	                        border-radius: 50%;
+	                    }
+	                }
+	                .position {
+	                    margin-bottom: 10px;
+	                }
+	                .entry-text {
+	                    margin: auto;
+	                }
+	            }
+	        }
+        }
+    }
+}

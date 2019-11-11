@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,mBAAG;EACC,UAAU,EAAE,IAAI;EAChB,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,CAAC;EACT,UAAU,EAAE,iBAAiB",
+"sources": ["block-separator.scss"],
+"names": [],
+"file": "block-separator.css"
+}

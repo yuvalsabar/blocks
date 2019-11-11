@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEQ,yCAAY;EACR,WAAW,EAAE,GAAG;AAEpB,2CAAc;EACV,SAAS,EAAE,IAAI",
+"sources": ["block-blockquote.scss"],
+"names": [],
+"file": "block-blockquote.css"
+}

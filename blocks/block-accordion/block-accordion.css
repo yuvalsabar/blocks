@@ -1,0 +1,19 @@
+.block-accordion .accordion-wrap .accordion {
+  list-style-type: none; }
+  .block-accordion .accordion-wrap .accordion .item {
+    margin-bottom: 20px; }
+    .block-accordion .accordion-wrap .accordion .item.active .btn-wrap .btn .fa {
+      transform: rotate(180deg); }
+    .block-accordion .accordion-wrap .accordion .item .btn-wrap .btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%; }
+      .block-accordion .accordion-wrap .accordion .item .btn-wrap .btn .fa {
+        transition: all 300ms ease; }
+    .block-accordion .accordion-wrap .accordion .item .entry-content {
+      display: none; }
+      .block-accordion .accordion-wrap .accordion .item .entry-content p {
+        margin-bottom: 0; }
+
+/*# sourceMappingURL=block-accordion.css.map */

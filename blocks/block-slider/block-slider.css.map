@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,+BAAkB;EACd,SAAS,EAAE,KAAK;EAChB,+CAAgB;IACf,cAAc,EAAE,IAAI;IAEnB,0EAAa;MACZ,UAAU,EAAE,MAAM",
+"sources": ["block-slider.scss"],
+"names": [],
+"file": "block-slider.css"
+}

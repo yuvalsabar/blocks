@@ -1,0 +1,36 @@
+.block-accordion {
+    .accordion-wrap {
+        .accordion {
+            list-style-type: none;
+            .item {
+                margin-bottom: 20px;
+                &.active {
+                    .btn-wrap {
+                        .btn {
+                            .fa {
+                                transform: rotate(180deg);
+                            }
+                        }
+                    }
+                }
+                .btn-wrap {
+                    .btn {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 100%;
+                        .fa {
+                            transition: all 300ms ease;
+                        }
+                    }
+                }
+                .entry-content {
+                    display: none;
+                    p {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}

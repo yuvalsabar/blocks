@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,0BAAc;EACV,QAAQ,EAAE,QAAQ;EAClB,QAAQ,EAAE,MAAM;EAChB,WAAW,EAAE,MAAM;EACnB,iCAAO;IACH,QAAQ,EAAE,QAAQ;IAClB,GAAG,EAAE,CAAC;IACN,KAAK,EAAE,CAAC;IACR,KAAK,EAAE,IAAI;IACX,MAAM,EAAE,IAAI",
+"sources": ["block-embed.scss"],
+"names": [],
+"file": "block-embed.css"
+}

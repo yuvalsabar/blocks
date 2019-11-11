@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEQ,2CAAW;EACP,eAAe,EAAE,IAAI;EACrB,iDAAM;IACF,aAAa,EAAE,IAAI;IAIP,2EAAI;MACA,SAAS,EAAE,cAAc;IAMrC,gEAAK;MACD,OAAO,EAAE,IAAI;MACb,WAAW,EAAE,MAAM;MACnB,eAAe,EAAE,aAAa;MAC9B,KAAK,EAAE,IAAI;MACX,oEAAI;QACA,UAAU,EAAE,cAAc;IAItC,gEAAe;MACX,OAAO,EAAE,IAAI;MACb,kEAAE;QACE,aAAa,EAAE,CAAC",
+"sources": ["block-accordion.scss"],
+"names": [],
+"file": "block-accordion.css"
+}

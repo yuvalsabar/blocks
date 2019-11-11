@@ -1,0 +1,57 @@
+.block .block-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px; }
+  .block .block-container .block-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px; }
+    .block .block-container .block-row .block-col {
+      position: relative;
+      width: 100%;
+      min-height: 1px;
+      padding: 0 15px;
+      flex-basis: 0;
+      flex-grow: 1; }
+.block h1,
+.block h2,
+.block h3,
+.block h4,
+.block h5 {
+  font-weight: 700;
+  margin-bottom: 20px; }
+.block h2 {
+  font-size: 26px; }
+.block h3 {
+  font-size: 24px; }
+.block h4 {
+  font-size: 22px; }
+.block h5 {
+  font-size: 20px; }
+.block .entry-content {
+  line-height: 1.35; }
+  .block .entry-content p,
+  .block .entry-content ul,
+  .block .entry-content ol {
+    margin-bottom: 20px; }
+  .block .entry-content ul,
+  .block .entry-content ol {
+    padding-right: 40px;
+    list-style-position: outside; }
+  .block .entry-content ul {
+    list-style-type: disc; }
+  .block .entry-content ol {
+    list-style-type: decimal; }
+  .block .entry-content a {
+    color: #007bff; }
+    .block .entry-content a:hover {
+      text-decoration: underline; }
+  .block .entry-content em {
+    font-style: italic; }
+  .block .entry-content img {
+    height: auto; }
+.block button {
+  cursor: pointer; }
+
+/*# sourceMappingURL=blocks.css.map */

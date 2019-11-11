@@ -1,0 +1,13 @@
+.block-slider {
+    .swiper-container {
+        max-width: 700px;
+        .swiper-wrapper {
+        	padding-bottom: 50px;
+        	.swiper-slide {
+        		.entry-image {
+        			text-align: center;
+        		}
+        	}
+        }
+    }
+}

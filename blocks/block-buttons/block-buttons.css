@@ -1,0 +1,22 @@
+.block-buttons .btn {
+  display: inline-flex;
+  margin-left: 20px;
+  padding: 5px 20px;
+  border-radius: 30px;
+  transition: all 150ms ease; }
+  .block-buttons .btn.btn-blue {
+    color: #007bff;
+    border: 1px solid #007bff; }
+    .block-buttons .btn.btn-blue:hover {
+      color: #fff;
+      background: #007bff; }
+  .block-buttons .btn.btn-gray {
+    color: #6c757d;
+    border: 1px solid #6c757d; }
+    .block-buttons .btn.btn-gray:hover {
+      color: #fff;
+      background: #6c757d; }
+  .block-buttons .btn .icon {
+    margin-right: 5px; }
+
+/*# sourceMappingURL=block-buttons.css.map */

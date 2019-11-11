@@ -1,0 +1,4 @@
+[03-Nov-2019 21:56:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function have_rows() in /home/blocks/public_html/wp-content/themes/blocks/inc/blocks/block-buttons/block-buttons.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/blocks/public_html/wp-content/themes/blocks/inc/blocks/block-buttons/block-buttons.php on line 1

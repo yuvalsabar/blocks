@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,4CAAkB;EACd,SAAS,EAAE,KAAK;EAChB,4DAAgB;IACf,cAAc,EAAE,IAAI;IACpB,0EAAc;MACV,UAAU,EAAE,MAAM;MAClB,iFAAO;QACH,SAAS,EAAE,KAAK;QAChB,MAAM,EAAE,IAAI;QAER,kGAAI;UACA,KAAK,EAAE,KAAK;UACZ,MAAM,EAAE,KAAK;UACb,aAAa,EAAE,GAAG;QAG1B,2FAAU;UACN,aAAa,EAAE,IAAI;QAEvB,6FAAY;UACR,MAAM,EAAE,IAAI",
+"sources": ["block-testimonials-slider.scss"],
+"names": [],
+"file": "block-testimonials-slider.css"
+}

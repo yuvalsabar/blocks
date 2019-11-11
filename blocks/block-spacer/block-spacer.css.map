@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,uBAAc;EACV,UAAU,EAAE,IAAI",
+"sources": ["block-spacer.scss"],
+"names": [],
+"file": "block-spacer.css"
+}
