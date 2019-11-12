@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,kBAAmB;EACf,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,IAAI;EAER,mCAAI;IACA,OAAO,EAAE,KAAK;IACd,KAAK,EAAE,IAAI;EAGnB,+BAAa;IACT,aAAa,EAAE,IAAI;EAGnB,gDAAc;IACV,OAAO,EAAE,EAAE;IACX,UAAU,EAAE,cAAc;IAC1B,oEAAsB;MAClB,OAAO,EAAE,CAAC;IAEd,6DAAa;MACT,MAAM,EAAE,OAAO",
+"sources": ["block-sync-slider.scss"],
+"names": [],
+"file": "block-sync-slider.css"
+}

@@ -1,0 +1,17 @@
+.block-sync-slider {
+  max-width: 400px;
+  margin: auto; }
+  .block-sync-slider .entry-image img {
+    display: block;
+    width: 100%; }
+  .block-sync-slider .gallery-top {
+    margin-bottom: 10px; }
+  .block-sync-slider .gallery-thumbs .swiper-slide {
+    opacity: .5;
+    transition: all 150ms ease; }
+    .block-sync-slider .gallery-thumbs .swiper-slide.swiper-slide-active {
+      opacity: 1; }
+    .block-sync-slider .gallery-thumbs .swiper-slide .entry-image {
+      cursor: pointer; }
+
+/*# sourceMappingURL=block-sync-slider.css.map */

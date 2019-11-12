@@ -1,0 +1,25 @@
+.block-sync-slider {
+    max-width: 400px;
+    margin: auto;
+    .entry-image {
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    .gallery-top {
+        margin-bottom: 10px;
+    }
+    .gallery-thumbs {
+        .swiper-slide {
+            opacity: .5;
+            transition: all 150ms ease;
+            &.swiper-slide-active {
+                opacity: 1;
+            }
+            .entry-image {
+                cursor: pointer;
+            }
+        }
+    }
+}

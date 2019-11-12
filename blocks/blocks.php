@@ -184,6 +184,8 @@ function register_acf_block_types() {
 			'name'            => 'block_sync_slider',
 			'title'           => __( 'סליידר סנכרוני', 'theme' ),
 			'render_template' => 'inc/blocks/block-sync-slider/block-sync-slider.php',
+			'enqueue_style'   => $theme . '/inc/blocks/block-sync-slider/block-sync-slider.css',
+			'enqueue_script'  => $theme . '/inc/blocks/block-sync-slider/block-sync-slider.js',
 			'category'        => 'qs-blocks',
 			'icon'            => 'star-filled',
 			'keywords'        => array(),
