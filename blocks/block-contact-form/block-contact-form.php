@@ -2,18 +2,11 @@
 	<div class="block-container">
 		<div class="block-row">
 			<div class="block-col">
-				<div class="block-in">
-					<div class="fields-wrap">
-						<h2 class="entry-title section-title">
-							<?php the_field( 'bottom_cf_title', 'option' );?>
-						</h2>
-						<h3 class="entry-subtitle">
-							<?php the_field( 'bottom_cf_subtitle', 'option' );?>
-						</h3>
+				<h4 class="entry-title">
+					<?php the_field( 'title' ); ?>
+				</h4>
 
-						<?php QS::do_wpcf7( 'bottom_cf', 'option' );?>
-					</div>
-				</div>
+				<?php echo do_shortcode( '[contact-form-7 id="' . get_field( 'form_id' ) . '"]' ); ?>
 			</div>
 		</div>
 	</div>

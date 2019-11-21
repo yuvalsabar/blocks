@@ -1,0 +1,26 @@
+.block-banner {
+    .block-in {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        height: 300px;
+        padding: 30px;
+        background-size: cover;
+        .entry-title {
+            font-size: 72px;
+            color: #fff;
+        }
+        .btn {
+            display: inline-flex;
+            padding: 10px 20px;
+            color: #fff;
+            border-radius: 5px;
+            background: #007bff;
+            transition: all 300ms ease;
+            &:hover {
+                background: #0069d9;
+            }
+        }
+    }
+}

@@ -75,13 +75,13 @@ function register_acf_block_types() {
 		)
 	);
 	acf_register_block_type(
-		array(
-			'name'            => 'block_title',
-			'title'           => __( 'כותרת', 'theme' ),
-			'render_template' => 'inc/blocks/block-title/block-title.php',
-			'category'        => 'qs-blocks',
-			'icon'            => 'star-filled',
-			'keywords'        => array(),
+			array(
+				'name'            => 'block_title',
+				'title'           => __( 'כותרת', 'theme' ),
+				'render_template' => 'inc/blocks/block-title/block-title.php',
+				'category'        => 'qs-blocks',
+				'icon'            => 'star-filled',
+				'keywords'        => array(),
 		)
 	);
 	acf_register_block_type(
@@ -89,6 +89,7 @@ function register_acf_block_types() {
 			'name'            => 'block_contact_form',
 			'title'           => __( 'טופס צור קשר', 'theme' ),
 			'render_template' => 'inc/blocks/block-contact-form/block-contact-form.php',
+			'enqueue_style'   => $theme . '/inc/blocks/block-contact-form/block-contact-form.css',
 			'category'        => 'qs-blocks',
 			'icon'            => 'star-filled',
 			'keywords'        => array(),
@@ -152,6 +153,7 @@ function register_acf_block_types() {
 			'name'            => 'block_banner',
 			'title'           => __( 'באנר', 'theme' ),
 			'render_template' => 'inc/blocks/block-banner/block-banner.php',
+			'enqueue_style'   => $theme . '/inc/blocks/block-banner/block-banner.css',
 			'category'        => 'qs-blocks',
 			'icon'            => 'star-filled',
 			'keywords'        => array(),
@@ -163,17 +165,6 @@ function register_acf_block_types() {
 			'title'           => __( 'ציטוט', 'theme' ),
 			'render_template' => 'inc/blocks/block-blockquote/block-blockquote.php',
 			'enqueue_style'   => $theme . '/inc/blocks/block-blockquote/block-blockquote.css',
-			'category'        => 'qs-blocks',
-			'icon'            => 'star-filled',
-			'keywords'        => array(),
-		)
-	);
-	acf_register_block_type(
-		array(
-			'name'            => 'block_gap',
-			'title'           => __( 'מרווח', 'theme' ),
-			'render_template' => 'inc/blocks/block-spacer/block-spacer.php',
-			'enqueue_style'   => $theme . '/inc/blocks/block-spacer/block-spacer.css',
 			'category'        => 'qs-blocks',
 			'icon'            => 'star-filled',
 			'keywords'        => array(),
@@ -196,6 +187,17 @@ function register_acf_block_types() {
 			'name'            => 'block_icon_and_text',
 			'title'           => __( 'אייקון וטקסט', 'theme' ),
 			'render_template' => 'inc/blocks/block-icon-and-text/block-icon-and-text.php',
+			'category'        => 'qs-blocks',
+			'icon'            => 'star-filled',
+			'keywords'        => array(),
+		)
+	);
+	acf_register_block_type(
+		array(
+			'name'            => 'block_spacer',
+			'title'           => __( 'מרווח', 'theme' ),
+			'render_template' => 'inc/blocks/block-spacer/block-spacer.php',
+			'enqueue_style'   => $theme . '/inc/blocks/block-spacer/block-spacer.css',
 			'category'        => 'qs-blocks',
 			'icon'            => 'star-filled',
 			'keywords'        => array(),
