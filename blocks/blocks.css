@@ -1,3 +1,10 @@
+.block.block-fullwidth .block-container {
+  max-width: 100%;
+  padding: 0; }
+  .block.block-fullwidth .block-container .block-row {
+    margin: 0; }
+    .block.block-fullwidth .block-container .block-row .block-col {
+      padding: 0; }
 .block .block-container {
   width: 100%;
   max-width: 1200px;

@@ -1,6 +1,17 @@
 .block {
     // Blocks grid
-
+    &.block-fullwidth {
+        .block-container {
+            max-width: 100%;
+            padding: 0;
+            .block-row {
+                margin: 0;
+                .block-col {
+                    padding: 0;
+                }
+            }
+        }
+    }
     .block-container {
         width: 100%;
         max-width: 1200px;
